@@ -7,37 +7,30 @@ import 'typeface-merriweather'
 import profilePic from './profile-pic.jpg'
 import { rhythm } from '../utils/typography'
 
-export interface BioProps {}
-
-class Bio extends React.Component<BioProps, {}> {
-  render() {
-    return (
-      <div
+function Bio(): React.ReactElement<{}> {
+  return (
+    <div
+      style={{
+        display: 'flex',
+        marginBottom: rhythm(2.5),
+      }}
+    >
+      <img
+        src={profilePic}
+        alt={`Reese McLean`}
         style={{
-          display: 'flex',
-          marginBottom: rhythm(2.5),
+          marginRight: rhythm(1 / 2),
+          marginBottom: 0,
+          width: rhythm(2),
+          height: rhythm(2),
         }}
-      >
-        <img
-          src={profilePic}
-          alt={`Kyle Mathews`}
-          style={{
-            marginRight: rhythm(1 / 2),
-            marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
-          }}
-        />
-        <p>
-          Written by <strong>Kyle Mathews</strong> who lives and works in San
-          Francisco building useful things.{' '}
-          <a href="https://twitter.com/kylemathews">
-            You should follow him on Twitter
-          </a>
-        </p>
-      </div>
-    )
-  }
+      />
+      <p>
+        Hi, I'm Reese. I'm a developer and former high school math teacher.
+        Currently at Blackboard.
+      </p>
+    </div>
+  )
 }
 
 export default Bio

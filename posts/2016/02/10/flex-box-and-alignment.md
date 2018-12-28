@@ -1,7 +1,8 @@
 ---
 title: Flexbox and Alignment
 slug: flex-box-and-alignment
-date: "2016-02-10T10:54:44.000Z"
+date: '2016-02-10T10:54:44.000Z'
+excerpt: 'If you are reading this you may see some older/newer or previous/next buttons at the bottom of this page. These are laid out in a Handlebars template like so...'
 ---
 
 If you are reading this you may see some older/newer or previous/next buttons at the bottom of this page. These are laid out in a Handlebars template like so:

@@ -1,7 +1,8 @@
 ---
 title: Hello World
 slug: hello-world
-date: "2016-02-08T06:40:20.000Z"
+date: '2016-02-08T06:40:20.000Z'
+excerpt: 'This is the first in what I hope will be many posts. Some of the reasons I want to begin blogging...'
 ---
 
 This is the first in what I hope will be many posts.

@@ -1,7 +1,8 @@
 ---
 title: Self-taught (but Not Self-educated)
 slug: self-taught-but-not-self-educated-2
-date: "2018-02-28T11:14:10.000Z"
+date: '2018-02-28T11:14:10.000Z'
+excerpt: 'When I was in school to be a teacher, the first iPhone came out and about a year later the first SDK came out. I knew immediately that I wanted to build something for it. The first app I (poorly) wrote was to help me check answers for some students I was tutoring. But I kept learning from my mistakes and read a ton...'
 ---
 
 When I was in school to be a teacher, the first iPhone came out and about a year later the first SDK came out. I knew immediately that I wanted to build something for it. The first app I (poorly) wrote was to help me check answers for some students I was tutoring. But I kept learning from my mistakes and read a ton.
