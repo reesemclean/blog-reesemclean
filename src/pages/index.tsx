@@ -29,6 +29,8 @@ function BlogIndex(props: BlogIndexProps) {
         const title = node.frontmatter.title || node.fields.slug
         const excerpt = node.frontmatter.excerpt || node.excerpt
 
+        console.log(excerpt)
+
         return (
           <div key={node.fields.slug}>
             <h3
