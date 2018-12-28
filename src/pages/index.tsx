@@ -27,9 +27,11 @@ function BlogIndex(props: BlogIndexProps) {
       <Bio />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
-        const excerpt = node.frontmatter.excerpt || node.excerpt
-
-        console.log(excerpt)
+        const excerptNode = node.frontmatter.excerpt ? (
+          <p dangerouslySetInnerHTML={{ __html: node.frontmatter.excerpt }} />
+        ) : (
+          <div dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+        )
 
         return (
           <div key={node.fields.slug}>
@@ -51,7 +53,7 @@ function BlogIndex(props: BlogIndexProps) {
             >
               {node.frontmatter.date}
             </time>
-            <p dangerouslySetInnerHTML={{ __html: excerpt }} />
+            {excerptNode}
           </div>
         )
       })}
